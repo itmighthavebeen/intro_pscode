@@ -1,4 +1,33 @@
 # Client Task A #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+Task A: Guess the Number Game
+
+ Write pseudocode for a number guessing game. 
+ The computer chooses a random number between 1 and 10, and the player has 3 chances to guess.
+ A. Pseudo Code for Number Guessing Game Version 1.0
+ Givens (constrainsts) -
+ 1. computer generates a random number between 1 and 10
+ 2. User only has three chances to guess
+ 
+ Initialize integer with a random number from 1 to 10
+ Function InputValidate: 
+		Input integer guess from user
+		validate input - Is number between 1 and 10?
+ initialize count to 1	
+ Do while count is <= 3
+			
+	If guess = random number integer		
+		Display "you guessed it"
+		Exit Program
+	else
+	    Do Function InputValidate to get next guess 
+		Increment count
+		
+ Display "Sorry - Fail. Number of tries exceeded. The number was", Display random number integer.
+ Exit Program 
+ 
+ 
+ Guessing Game Future Enhancements/deliverables
+ Version 1.1 - Ask user if they would like to continue the game and add loop for this condition
 

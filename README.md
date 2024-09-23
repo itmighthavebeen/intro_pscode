@@ -1,5 +1,9 @@
 # Pseudocode Task Instructions
-
+	Pseudo code **tasks a,b and c** by  *Charlotte Ramsey*.
+	======================================================
+	- pseudo code not written for any particular coding language
+	- pseudo code written for the client to understand
+	- enhancements added down into deliverables so code is has positive tangible outcomes over the life of the project
 **This assignment has *multiple* steps, please *read* the steps *completely* and *thoroughly*. You may need to review, research, problem solve, and ask questions.**
 
 ## **Overview:**

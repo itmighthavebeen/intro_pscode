@@ -1,4 +1,37 @@
 # Client Task B #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+Task B: Find the Spot
+
+ Develop a mapping (walking) application to find a specific set location in a large warehouse store for a customer.
+ The customer can move north, south, east, or west. 
+ 
+Mapping Application Version 1.0 
+
+X (column)   Y (row)   item
+0    		 0       front door
+0    		 1       service desk
+0    		 4       bathroom
+-1   		 3       deli
+-3   		 5       bakery
+etc
+
+Assumption: 1. given the table of location as x,y coordinates and item  found there
+			2. Warehouse has labeled columns and rows that customer can use as reference 
+
+Ask user "What item are you by now?"
+Input answer from drop down of list of items and store x,y values as pointA(x,y)
+Ask user "What item do you want to go to?"
+Input answer from drop down of list of items and store x,y values as pointB(x,y)
+calculate the north/south distance between pointA and pointB by subtracting pointB(y) - pointA(y) = north_south_value (a signed intgeger)
+calculate the east/west distance between pointA and pointB by subtracting pointB(x) - pointA(x) = east_west_value (a signed integer)
+Display answer to user of direction using these outcomes:
+	If north_south_value is positive to user will go north that many rows
+	If north_south_value is negative the user will go south that many rows
+	If the east_west_value is positive the user will fo east that many columns
+	If the east_west_value is negative the user will go west that many columns
+	
+Mapping Future Enhancements/deliverables so the client has met expectations
+Version 1.1 - Give the user the choice to give you the item they are closest to OR the column / row number displayed nearby
+Version 2.0 - Use geotracking API to determine coordinates such as Amazom Location Services
 
